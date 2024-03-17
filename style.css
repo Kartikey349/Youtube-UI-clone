@@ -321,7 +321,13 @@ p{
         padding-left: 14px;
     }
     .sidebar{
-        transform: translateX(-65px);
+        transform: translateY(84vh);
+        display: flex;
+        width: 100vw;
+        justify-content: space-around;
+    }
+    .sidebar div{
+        height: 50px;
     }
     .categories{
         margin-left: 0;
